@@ -1,0 +1,100 @@
+.footer {
+    background-color: #0B0D10;
+    color: #E7E7E7;
+    border-top: 1px solid #2A2F3A;
+    padding: 50px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    &__copyright,
+    &__socials {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        color: #A3A7B2;
+        &-item {
+            cursor: pointer;
+            position: relative;
+            &::after {
+                content: '·';
+                display: block;
+                // background-color: #fff;
+                color: #fff;
+                position: absolute;
+                top: 0;
+                right: -13px;
+            }
+            &:last-child {
+                &::after {
+                    content: '·';
+                    display: none;
+                }
+            }
+        }
+    }
+    &__phone-email {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        a {
+            text-decoration: none;
+            color: #E7E7E7;
+        }
+        &-item {
+            cursor: pointer;
+            position: relative;
+            &::after {
+                content: '·';
+                display: block;
+                // background-color: #fff;
+                color: #fff;
+                position: absolute;
+                top: 0;
+                right: -13px;
+            }
+            &:last-child {
+                &::after {
+                    content: '·';
+                    display: none;
+                }
+            }
+        }
+    }
+
+    // .footer__phone-email {
+    //     display: flex;
+    //     list-style-type: none;
+    //     gap: 5px;
+    //     a {
+    //         text-decoration: none;
+    //         color: #E7E7E7;
+    //     }
+    //     &-item {
+    //         cursor: pointer;
+    //         position: relative;
+    //         &::after {
+    //             content: '·';
+    //             display: block;
+    //             // background-color: #fff;
+    //             color: #fff;
+    //             position: absolute;
+    //             top: 0;
+    //             right: -13px;
+    //         }
+    //         // &:last-child {
+    //         //     &::after {
+    //         //         content: '·';
+    //         //         display: none;
+    //         //     }
+    //         // }
+    //     }
+    // }
+
+
+}

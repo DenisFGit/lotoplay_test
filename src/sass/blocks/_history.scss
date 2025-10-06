@@ -1,0 +1,15 @@
+.history {
+    padding: 50px 0;
+    background-color: #141C21;
+    color: #E7E7E7;
+    &__img {
+        width: 400px;
+        float: right;
+        border-radius: 8px;
+        margin: 3px;
+    }
+    &__wrapper {
+        margin-top: 32px;
+    }
+
+}

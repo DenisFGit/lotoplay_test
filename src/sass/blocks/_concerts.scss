@@ -1,0 +1,29 @@
+.concerts {
+    background-color: #0E0F12;
+    color: #E7E7E7;
+    padding: 50px 0 0 0;
+    &__wrapper {
+        background-color: #1B1E29;
+        border-radius: 8px;
+        border: 1px solid #2A2F3A;
+    }
+    &__title {
+        padding: 15px;
+    }
+    &__header {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        color: #AEB3BE;
+        padding: 15px;
+        border: 1px solid #2A2F3A;
+        font-weight: 500;
+    }
+    &__row {
+        background-color: #151821;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 15px;
+        border: 1px solid #2A2F3A;
+        align-items: center;
+    }
+}

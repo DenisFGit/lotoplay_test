@@ -1,0 +1,44 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0E0F12;
+    color: #E7E7E7;
+    padding: 20px 13%;
+    border-bottom: 1px solid #2A2F3A;
+    &__logo {
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+            color: #FEED49;
+        }
+    }
+    &__list {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        li {
+            cursor: pointer;
+            &:hover {
+                color: #FEED49;
+            }
+        }
+    }
+}
+
+.burger {
+    display: none;
+}
+.burgerShow {
+    span {
+        &:nth-child(1) {
+            transform: translateY(5px) rotate(45deg);
+
+        }
+        &:nth-child(2) {
+            display: none;
+        }
+        &:nth-child(3) {
+            transform: translateY(-2px) rotate(-45deg);
+        }
+    }
+}
