@@ -114,7 +114,7 @@ modalSelect.addEventListener('change', updateSelectedData);
 
 function openModal() {
     modal.classList.add('showModal');
-    overscreen.classList.add('show');
+    overscreen.classList.add('showOverlay');
     updateSelectedData();
 
     // nameError.textContent = "";
@@ -140,7 +140,7 @@ promoBtn.addEventListener('click', openModal);
 
 function closeModal() {
     modal.classList.remove('showModal');
-    overscreen.classList.remove('show');
+    overscreen.classList.remove('showOverlay');
 }
 
 overscreen.addEventListener('click', closeModal);

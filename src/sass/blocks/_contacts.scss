@@ -4,6 +4,7 @@
     color: #E7E7E7;
     &__title {
         text-align: center;
+        font-weight: 800;
     }
     &__subtitle {
         margin-top: 25px;
@@ -20,6 +21,7 @@
         label {
             color: #A3A7B2;
             display: block;
+            font-weight: 700;
         }
     }
     input,
@@ -58,12 +60,16 @@
     }
     &__btn {
         margin-top: 30px;
+        font-size: 16px;
     }
     &__map {
         width: 50%;
         padding: 20px;
         border: 1px solid #2A2F3A;
         border-radius: 8px;
+        &-title {
+            font-weight: 800;
+        }
         iframe {
             border-radius: 8px;
             width: 100%;

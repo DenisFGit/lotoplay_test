@@ -26,9 +26,12 @@
     .concerts {
         &__row {
             grid-template-columns: 1fr 0.5fr 1fr 1fr;
-            div {
-                text-align: center;
-            }
+            // div {
+            //     text-align: center;
+            // }
+        }
+        &__field {
+            text-align: center;
         }
     }
     .history {
@@ -74,7 +77,7 @@
         &__row {
             padding: 5px;
         }
-        div {
+        &__field {
             font-size: 14px;
         }
     }
@@ -120,9 +123,19 @@
             }
         }
     }
+    .modal {
+        width: 300px;
+        font-size: 14px;
+    }
+    .btn_modal {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 576px) {
+    .container {
+        padding: 0 10%;
+    }
     .nav {
         position: relative;
         padding: 11px 8%;
@@ -150,8 +163,8 @@
     .burger {
         display: block;
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: 15px;
+        right: 15px;
         display: flex;
         gap: 5px;
         flex-direction: column;
@@ -161,33 +174,70 @@
         span {
             transition: 0.6s all;
             // background-color: #fff;
-            width: 20px;
+            width: 30px;
             border: 1px solid #fff;
         }
 
+    }
+    .promo {
+        p {
+            font-size: 14px;
+        }
+        &__title {
+            font-size: 24px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            margin: 20px 0 25px 0;
+        }
+        &__btn {
+            font-size: 14px;
+        }
     }
     .btn {
         &_small {
             padding: 2px;
             font-weight: normal;
+            font-size: 12px;
         }
     }
     .concerts .container {
         padding: 0 2%;
     }
+    .concerts {
+        &__field {
+            font-size: 12px;
+        }
+    }
     .history {
         padding: 25px 0;
         &__img {
-            width: 180px;
+            width: 100%;
+            float: unset;
         }
         &__text {
             font-size: 14px;
         }
     }
     .contacts {
-        padding: 40px 0 50px 0;
+        padding: 40px 0 30px 0;
     }
     .footer {
         font-size: 14px;
+        &__wrapper {
+            flex-direction: column;
+            gap: 20px;
+        }
+        &__info {
+            gap: 20px;
+        }
+        &__socials {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        &__phone-email {
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
 }

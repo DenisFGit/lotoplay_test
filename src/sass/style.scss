@@ -1,15 +1,18 @@
 .container {
-    padding: 0 14%;
+    padding: 0 22%;
 }
 
 body {
+    // font-family: 'Inter', sans-serif;
+    // font-family: 'ArialMT', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     ul {
         padding-left: 0;
         margin-bottom: 0;
     }
 }
-
+// @import './base//fonts.scss';
 
 @import './blocks/nav';
 @import './blocks/promo';

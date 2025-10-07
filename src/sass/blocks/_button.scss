@@ -5,9 +5,10 @@
     border-radius: 8px;
     border: none;
     text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-weight: 800;
+    letter-spacing: 1px;
     transition: 0.3s all;
+    background-image: linear-gradient(90deg, #FDDB0E, #FEED49, #FDDB0E);
     &:hover {
         background-color: #8a8025;
     }
@@ -23,6 +24,7 @@
         padding: 5px 10px;
         font-weight: 500;
         letter-spacing: normal;
+        background-image: unset;
         &:hover {
             background-color: #9b1b34;
         }
@@ -35,6 +37,7 @@
         padding: 5px 20px;
         font-weight: 500;
         letter-spacing: normal;
+        background-image: unset;
         &:hover {
             background-color: #9b1b34;
         }
@@ -43,5 +46,6 @@
         width: 50%;
         margin: 0 auto;
         background-color: #f69a10;
+        background-image: unset;
     }
 }

@@ -2,14 +2,21 @@
     padding: 50px 0;
     background-color: #141C21;
     color: #E7E7E7;
+    &__title {
+        font-weight: 800;
+    }
     &__img {
-        width: 400px;
+        width: 330px;
         float: right;
         border-radius: 8px;
         margin: 3px;
     }
     &__wrapper {
         margin-top: 32px;
+    }
+    p {
+        // font-weight: 500;
+        font-size: 14px;
     }
 
 }

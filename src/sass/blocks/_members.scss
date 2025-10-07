@@ -4,18 +4,13 @@
     &__title {
         color: #E7E7E7;
         text-align: center;
+        font-weight: 800;
     }
     &__wrapper {
         margin-top: 52px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        // img {
-        //     display: block;
-        //     width: 100%;
-        //     height: 100%;
-        //     object-fit: cover;
-        // }
     }
     &__item {
         border: 1px solid #2A2F3A;
@@ -26,20 +21,15 @@
         max-width: 250px;
     }
     &__img {
-        // width: 300px;
-        // /* set the width you want */
-        // height: 200px;
         width: 100%;
         aspect-ratio: 1.5/ 1;
-        /* makes square image containers */
-        // overflow: hidden;
         border-radius: 8px;
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            /* keeps proportions, crops nicely */
             display: block;
+            border-radius: 8px;
         }
     }
     &__name {
