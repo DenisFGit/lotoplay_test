@@ -8,10 +8,48 @@
     <link rel="preload" as="image" href="img/bg-2.jpg">
     <link rel="preload" href="fonts/Roboto-Regular.woff" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="fonts/Roboto-Bold.woff" as="font" type="font/woff" crossorigin>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap-reboot.min.css"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/style.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+            background-color: #141C21;
+            color: #F5F5F5;
+        }
+
+        .promo {
+            min-height: 100vh;
+            padding: 100px 0 100px;
+            background-color: #141C21;
+            display: flex;
+            align-items: center;
+        }
+
+        .promo__title {
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .promo__subtitle {
+            font-size: 22px;
+            margin: 30px 0 40px;
+        }
+
+        .btn {
+            background: #4DD2FF;
+            color: #fff;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- <link rel="stylesheet" href="css/style.min.css"> -->
+    <link rel="preload" href="css/style.min.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="css/style.min.css">
+    </noscript>
 </head>
 
 <body>
@@ -37,10 +75,10 @@
         <div class="container">
             <h1 class="promo__title">Гурт «Грим та Грім»</h1>
             <h5 class="promo__subtitle">Справжній український рок, який гуркоче в серці</h5>
-            <!-- <p>«Грим та Грім» - це поєднання <span>потужних</span> гітариних рифів, чесних текстів і вибухової енергії
+            <p>«Грим та Грім» - це поєднання <span>потужних</span> гітариних рифів, чесних текстів і вибухової енергії
                 сцени. Ми
                 граємо для тих, хто цінує живий звук, свободу та силу музики"
-            </p> -->
+            </p>
             <p>
                 <span>Наші концерти</span> - це завжди контакт с залом, драйв і емоції. Приєднйся до нас на найближчих
                 виступах і відчуй цей саунд наживо!
