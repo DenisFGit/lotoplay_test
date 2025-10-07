@@ -15,6 +15,8 @@ body {
 }
 @import './base/fonts.scss';
 
+@import './base/bootstrap-reboot.min';
+
 @import './blocks/nav';
 @import './blocks/promo';
 @import './blocks/button';
