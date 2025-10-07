@@ -1,5 +1,5 @@
 .modal {
-    display: block;
+    display: none;
     position: fixed;
     width: 400px;
     background-color: yellow;
@@ -97,6 +97,7 @@
 }
 
 .showModal {
+    display: block;
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
