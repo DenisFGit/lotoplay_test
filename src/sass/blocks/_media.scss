@@ -1,4 +1,7 @@
 @media (max-width: 1200px) {
+    .container {
+        padding: 0 16%;
+    }
     .promo {
         padding: 150px 0 50px 0;
         &__title {
@@ -20,6 +23,9 @@
 }
 
 @media (max-width: 992px) {
+    .container {
+        padding: 0 12%;
+    }
     .promo {
         padding: 100px 0 50px 0;
     }
@@ -40,6 +46,9 @@
         }
         &__wrapper {
             margin-top: 20px;
+        }
+        p {
+            font-size: 16px;
         }
     }
     .contacts {
@@ -215,7 +224,7 @@
             width: 100%;
             float: unset;
         }
-        &__text {
+        p {
             font-size: 14px;
         }
     }
@@ -231,13 +240,17 @@
         &__info {
             gap: 20px;
         }
+        &__copyright {
+            justify-content: center;
+        }
         &__socials {
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         &__phone-email {
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
+
         }
     }
 }
