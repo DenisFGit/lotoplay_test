@@ -192,7 +192,7 @@
     }
     .promo {
         // min-height: 100vh;
-        p {
+        &__text {
             font-size: 14px;
         }
         &__title {
