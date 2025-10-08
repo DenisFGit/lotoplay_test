@@ -9,7 +9,7 @@
     <!-- <link rel="preload" href="fonts/Roboto-Regular.woff" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="fonts/Roboto-Bold.woff" as="font" type="font/woff" crossorigin> -->
 
-    <style>
+    <!-- <style>
         body {
             margin: 0;
             font-family: "Roboto", sans-serif;
@@ -43,7 +43,7 @@
             border-radius: 8px;
             cursor: pointer;
         }
-    </style>
+    </style> -->
 
     <link rel="stylesheet" href="css/style.min.css">
     <!-- <link rel="preload" href="css/style.min.css" as="style" onload="this.rel='stylesheet'">
@@ -61,12 +61,12 @@
     <div class="overscreen"></div>
     <div class="nav">
         <div class="nav__logo"><span>G&G</span></div>
-        <div class="nav__list">
+        <ul class="nav__list">
             <li>Про гурт</li>
             <li>Концерти</li>
             <li>Галерея</li>
             <li>Контакти</li>
-        </div>
+        </ul>
     </div>
     <div class="promo">
         <!-- <div class="promo__darkening">
@@ -203,7 +203,7 @@
             <h2 class="contacts__title">Зв'яжись з нами</h2>
             <div class="contacts__subtitle">Хочеш заказати виступ або маєш питання? Пиши!</div>
             <div class="contacts__wrapper">
-                <form action="" class="contacts__form" method="GET">
+                <form class="contacts__form" method="GET">
 
                     <div class="contacts__input">
                         <div class="contacts__name">
@@ -217,7 +217,7 @@
                     </div>
                     <div class="contacts__message">
                         <label for="message">Повідомлення</label>
-                        <textarea required name="textarea" id="message" name="message"
+                        <textarea required id="message" name="message"
                             placeholder="Розкажи про свої ідеї..."></textarea>
                     </div>
                     <button class=" btn btn_big contacts__btn">Відправити</button>
@@ -266,7 +266,7 @@
 
     <!-- <div class="modal">
         <div class="modal__close">&#10006;</div>
-        <form class="modal__form" action="" method="GET">
+        <form class="modal__form" method="GET">
             <div class="modal__name">
                 <div class="modal__name-wrapper">
                     <label for="modal-name">Ім'я</label>
