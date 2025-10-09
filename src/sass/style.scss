@@ -1,10 +1,10 @@
+@import './base/_bootstrap-reboot.min';
 .container {
     padding: 0 22%;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-display: swap;
     position: relative;
     ul {
         padding-left: 0;
@@ -12,8 +12,7 @@ body {
     }
 }
 
-@import './base/_bootstrap-reboot.min';
-@import './base/fonts.scss';
+@import './base/_fonts.scss';
 
 
 @import './blocks/nav';
