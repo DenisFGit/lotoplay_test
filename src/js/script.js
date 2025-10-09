@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
             modalForm.appendChild(loadingMessage);
             const formData = new FormData(modalForm);
             const query = new URLSearchParams(formData).toString();
-            fetch(`https://httpbin.org/get?${query}`)
+            fetch(`https://corsproxy.io/?https://httpbin.org/get?${query}`)
                 .then(res => res.json())
                 .then(data => {
                     console.log("Response:", data);
