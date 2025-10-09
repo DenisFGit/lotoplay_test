@@ -24,7 +24,6 @@
             &::after {
                 content: '·';
                 display: block;
-                // background-color: #fff;
                 color: #fff;
                 position: absolute;
                 top: 0;
@@ -52,7 +51,6 @@
             &::after {
                 content: '·';
                 display: block;
-                // background-color: #fff;
                 color: #fff;
                 position: absolute;
                 top: 0;
@@ -66,35 +64,4 @@
             }
         }
     }
-
-    // .footer__phone-email {
-    //     display: flex;
-    //     list-style-type: none;
-    //     gap: 5px;
-    //     a {
-    //         text-decoration: none;
-    //         color: #E7E7E7;
-    //     }
-    //     &-item {
-    //         cursor: pointer;
-    //         position: relative;
-    //         &::after {
-    //             content: '·';
-    //             display: block;
-    //             // background-color: #fff;
-    //             color: #fff;
-    //             position: absolute;
-    //             top: 0;
-    //             right: -13px;
-    //         }
-    //         // &:last-child {
-    //         //     &::after {
-    //         //         content: '·';
-    //         //         display: none;
-    //         //     }
-    //         // }
-    //     }
-    // }
-
-
 }

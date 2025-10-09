@@ -6,20 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lototplay Test</title>
 
-
-    <!-- <link rel="stylesheet" href="css/style.min.css"> -->
     <link rel="preload" href="fonts/Roboto-Black.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <!-- <link rel="preload" href="fonts/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin> -->
-    <link rel="preload" href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    <!-- <link rel="preload" href="fonts/Roboto-Thin.woff2" as="font" type="font/woff2" crossorigin> -->
     <link rel="preload" as="image" href="img/bg-2.jpg" fetchpriority="high">
 
-    <!-- <link rel="preload" href="css/style.min.css" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="css/style.min.css">
-    </noscript> -->
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -40,8 +31,6 @@
         </ul>
     </div>
     <header class="promo">
-        <!-- <div class="promo__darkening">
-        </div> -->
         <img src="img/bg-2.jpg" alt="media-bg" class="promo__img-media">
         <div class="container">
             <h1 class="promo__title">Гурт «Грим та Грім»</h1>
@@ -103,7 +92,8 @@
             <div class="members__wrapper">
                 <div class="members__item">
                     <div class="members__img">
-                        <img src="./img/rabbit-guitar.jpg" alt="rabbit-guitar">
+                        <img loading="lazy" src="./img/rabbit-guitar.jpg" alt="rabbit-guitar" width="300px"
+                            height="200px">
                     </div>
                     <div class="members__name">
                         Максим - гітара
@@ -111,7 +101,8 @@
                 </div>
                 <div class="members__item">
                     <div class="members__img">
-                        <img src="./img/bigfoot-singer.png" alt="bigfoot-singer">
+                        <img loading="lazy" src="./img/bigfoot-singer.png" alt="bigfoot-singer" width="300px"
+                            height="200px">
                     </div>
                     <div class="members__name">
                         Олена - вокал
@@ -119,7 +110,7 @@
                 </div>
                 <div class="members__item">
                     <div class="members__img">
-                        <img src="./img/drums.jpg" alt="drums">
+                        <img loading="lazy" src="./img/drums.jpg" alt="drums" width="300px" height="200px">
                     </div>
                     <div class="members__name">
                         Тарас - барабани
@@ -270,7 +261,6 @@
             <button class="btn btn_modal" id="modal-btn" type="submit">Відправити</button>
         </form>
     </div>
-    <!-- <button id="test-btn" class="btn">Click me</button> -->
 
     <script src="js/script.js" defer></script>
 </body>
