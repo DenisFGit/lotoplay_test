@@ -4,12 +4,12 @@
     // min-height: 100vh;
     // background: url('../img/bg-2.jpg') no-repeat 50% / cover;
     // background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url('../img/bg-2.jpg') );
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('../img/bg-2.jpg') center/cover no-repeat;
+    // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    //     url('../img/bg-2.jpg') center/cover no-repeat;
     // background-color: #141C21;
     color: #F5F5F5;
     &__img-media {
-        display: none;
+        display: block;
         position: absolute;
         top: 0;
         left: 0;
